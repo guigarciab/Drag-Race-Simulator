@@ -574,4 +574,6 @@
 "Body Language by Heidi Montag",
 "Upgrade U by Beyonce & Jay-Z",
 "Last Chance by Kylie Minogue",
+"Killing Me Softly With His Song by Fugees & Lauryn Hill", 
+"Sweet Dreams by Beyoncé",
 "Hung Up by Madonna"
