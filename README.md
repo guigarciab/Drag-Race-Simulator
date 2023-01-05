@@ -1,5 +1,5 @@
-# Drag Race Simulator
-Drag Race Simulator
+# Masked Singer Simulator
+Masked Singer Simulator
 <br> You can also send me a dm in Discord if you find a bug or something that wasn't cute. <b> Rainbow#4283</b>
 
 # 11/18/2022
