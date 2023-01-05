@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link id="style" rel="stylesheet" href="css/style.light.css">
     <link rel="icon" href="image/favicon.ico">
-    <title>Drag Race Simulator</title>
+    <title>Masked Singer Simulator</title>
     <script src="javascript/index.js" defer></script>
     <script src="https://kit.fontawesome.com/65fd17a1f9.js" crossorigin="anonymous"></script>
 </head>
@@ -15,7 +15,7 @@
         <h1 id="MainTitle">Drag Race Simulator!</h1>
     </div>
     <div class="mainPart" id="MainBlock">
-        <p><big>This is your chance to simulate a drag race season with all your favorite contestants!</big></p>
+        <p><big>This is your chance to simulate a Masked Singer season with all your favorite contestants and with new celebrities!</big></p>
         <div class="search-wrapper">
             <big><label for="search">Choose your contestants:</label></big>
             <input type="search" id="search" class="searchInput" placeholder="Type a name.." data-search>
@@ -39,27 +39,10 @@
             <p>Choose your premiere format: </p>
             <select id="premiere-format">
                 <option>Normal premiere</option>
-                <option value="s6-premiere">Double Premiere</option>
-                <option value="s9-premiere">Normal Premiere (No Elimination)</option>
-                <option value="s12-premiere">Double Premiere (No Elimination)</option>
-                <option value="porkchop">Porkchop Premiere</option>
-                <option value="uk3-premiere">UK3 Premiere</option>
-                <option value="s14-premiere">Double Premiere (Talent Show)</option>
-            </select>
-        </div>
-
-        <div>
-            <p>Choose your returning format: </p>
-            <select id="returning">
-                <option>None</option>
-                <option value="choose">Choose who returns</option>
-                <option value="random">Random queen returns</option>
-                <option value="votes">Remaining queens vote</option>
-                <option value="conjoined-queens">Conjoined Queens Makeover</option>
-                <option value="queensofcomedy">Queens of Comedy</option>
-                <option value="kittygirlgroup">Kitty Girl Group</option>
-                <option value="smackdown">Lip-Sync Smackdown</option>
-                <option value="lalaparuza">LaLaPaRuZa</option>
+                <option value="no-elimination-premiere">Normal Premiere (No Elimination)</option>
+                <option value="double-premiere">2 Groups Premiere</option>
+                <option value="triple-premiere">3 Groups Premiere</option>
+                <option value="quadruple-premiere">4 Groups Premiere</option>
             </select>
         </div>
             
@@ -67,23 +50,30 @@
             <p>Choose your season format: </p>
             <select id="format">
                 <option value="regular">Regular Format</option>
-                <option value="thailand">Thailand's Format</option>
-                <option value="team">Teams Format</option>
-                <option value="all-stars">Lipsync For Your Legacy Format</option>
-                <option value="lipsync-assassin">Lipsync Assassin Format</option>
-                <option value="all-winners">All Winners Format</option>
+                <option value="usa-s6-format">USA S6 Format</option>
+                <option value="usa-s7-format">USA S7 Format</option>
+                <option value="usa-s8-format">USA S8 Format</option>
             </select>
         </div>
 
+        <div>
+            <p>Choose your groups format: </p>
+            <select id="format">
+                <option value="regular">1 Group</option>
+                <option value="2-groups">2 Groups</option>
+                <option value="3-groups">3 Groups</option>
+                <option value="4-groups">4 Groups</option>
+            </select>
+        </div>
+        
         <div>
             <p>Choose your finale format: </p>
             <select id="finale">
                 <option value="top5">Top 5</option>
                 <option value="top4">Top 4</option>
                 <option value="top3">Top 3</option>
-                <option value="teams">Teams Finale</option>
+                <option value="LFTF">Top 2</option>
                 <option value="LFTC">Lip-Sync For The Crown</option>
-                <option value="LFTF">Lip Sync for the Finale</option>
                 <option value="jury">Jury Vote</option>
                 <option value="randomFinale">Random Finale</option>
             </select>
@@ -97,9 +87,6 @@
             <input type="checkbox" id="disableDouble"> Disable double shantays and sashays <br>
             <input type="checkbox" id="riggory"> Disable Challenge Riggory <br>
             <input type="checkbox" id="riggoryLipsync"> Disable Lipsync Riggory 
-            <p>Chocolate Bar Twist: </p>
-            <input type="checkbox" id="chocolateBar"> Random
-            <input type="checkbox" id="chocolateBarChoosable"> Choosable
         </div>
         <hr>
 
@@ -113,10 +100,7 @@
                 <big><a href="custom.html" id="inblock">Custom</a></big>
             </p></b>
             <b><p>
-                <big><a href="https://forms.gle/yM4fWVpARyArTKKi8" id="inblock" target=_blank>Suggest songs for the simulator</a></big>
-            </p></b>
-            <b><p>
-                <big><a href="https://discord.gg/cKaA8hvcAr" target=_blank>Discord Server</a></big>
+                <big><a href="https://forms.gle/i7Ub1kUzPuCgmpLGA" id="inblock" target=_blank>Suggest songs for the simulator</a></big>
             </p></b>
         </div>
 
@@ -129,12 +113,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.js" integrity="sha512-sn/GHTj+FCxK5wam7k9w4gPPm6zss4Zwl/X9wgrvGMFbnedR8lTUSLdsolDRBRzsX6N+YgG6OWyvn9qaFVXH9w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
     <script>
-        kofiWidgetOverlay.draw('arainbow4u', {
-        'type': 'floating-chat',
-        'floating-chat.donateButton.text': 'Tip Me',
-        'floating-chat.donateButton.background-color': '#5bc0de',
-        'floating-chat.donateButton.text-color': '#323842'
-        });
     </script>
 </body>
 </html>
